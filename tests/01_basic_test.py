@@ -1,4 +1,4 @@
-from other_code.services import DATA_SET_A, DATA_SET_B, DATA_SET_C
+from src.services import DATA_SET_A, DATA_SET_B, DATA_SET_C
 
 
 def test_example():

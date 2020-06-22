@@ -1,11 +1,11 @@
-from other_code.services import count_service
+from src.services import count_service
 
 
 def test_simple_mocking(mocker):
     """
     pytest-mock provides a fixture for easy, self-cleaning mocking
     """
-    mock_db_service = mocker.patch("other_code.services.db_service", autospec=True)
+    mock_db_service = mocker.patch("src.services.db_service", autospec=True)
 
     mock_data = [(0, "fake row", 0.0)]
 

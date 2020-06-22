@@ -1,5 +1,5 @@
 from pytest import fixture, mark
-from other_code.services import ExpensiveClass
+from src.services import ExpensiveClass
 
 
 @fixture(scope="module", autouse=True)
